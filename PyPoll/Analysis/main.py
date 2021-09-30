@@ -47,7 +47,7 @@ with open(data_path, newline="") as csvfile:
 # printing the output
 print("Election Results")
 print("--------------------------")
-print(f"Total Votes: {str(total_votes)}")
+print(f"Total Votes: + {str(total_votes)}")
 print("--------------------------")
 for i in range(len(candidates)):
     print(f"{candidates[i]}: {str(percent_votes[i])} ({str(num_votes[i])})")

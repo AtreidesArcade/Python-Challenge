@@ -101,4 +101,3 @@ line7 = str(
     f"Greatest Decrease in Profits: {greatest__dec_date} (${str(greatest_decrease)})")
 pyBankoutput.write('{}\n{}\n{}\n{}\n{}\n{}\n{}\n'.format(
     line1, line2, line3, line4, line5, line6, line7))
-
