@@ -3,7 +3,7 @@ import os
 import csv
 # Set relative path for csv file
 
-data_path=os.path.join('Resources', 'budget_data.csv')
+data_path=os.path.join('budget_data.csv')
 
 # counter for the total number of months
 total_months = 0
@@ -72,7 +72,7 @@ with open(data_path, newline="") as budget_file:
     greatest__dec_index = profits.index(greatest_decrease)
     greatest__dec_date = dates[greatest__dec_index]
 
-#Printing the analysiss output
+#Printing the analysis output
 printoutput = (
     f"Financial Analysis\n"
     f"-------------------------------------\n"
