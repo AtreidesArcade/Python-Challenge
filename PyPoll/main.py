@@ -4,16 +4,16 @@ import csv
 # Set relative path for csv file
 data_path = os.path.join('Resources', "election_data.csv")
 
-# A list to hold the names of candidates
+# list to hold the names of candidates
 candidates = []
 
-# A list to hold the number of votes each candidate receives
+# list to hold the number of votes for each candidate 
 num_votes = []
 
-# A list to hold the percentage of total votes each candidates
+# list to hold the percentage of total votes each candidates
 percent_votes = []
 
-# A counter for the total number of votes
+# counter for the total number of votes
 total_votes = 0
 
 # Read csv file
